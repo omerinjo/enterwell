@@ -1,0 +1,211 @@
+/*
+Theme Name: Enterwell
+Theme URI: http://wordpress.org/themes/twentythirteen
+Author: JA
+Text Domain:enterwell  
+
+*/
+
+/*  Text Domain:enterwell  sluzi za prevodjenje*/
+
+body{
+    background-color: #1e1e1e !important;
+}
+.form-group>label {
+  top: 38px;
+  left: 15px;
+  position: relative;
+  background-color: white;
+  padding: 0px 5px 0px 5px;
+  font-size: 1.1em;
+  transition: 0.2s;
+  pointer-events:none;
+}
+
+.form-group.label-animate>label {
+  top: 18px !important;
+  left: 16px !important;
+  font-size: 0.9em;
+}
+
+.form {
+  width: 1440px;
+  height: 953px;
+  padding: 35px 205px 33px;
+  margin: auto;
+}
+
+.Prijava-na-Enterwell {
+  width: 1030px;
+  height: 66px;
+  margin: 0 0 12px;
+  opacity: 0.8;
+  font-family: Catamaran;
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+  text-align: center;
+
+}
+
+.U-ovoj-igri {
+  width: 524px;
+  height: 49px;
+  margin: 12px 253px 30px 90.2px;
+  opacity: 0.6;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  letter-spacing: normal;
+  color: white;
+      text-align: center;
+    margin: auto;
+}
+
+.inner-shadow-rectangle {
+  width: 828px;
+  height: 698px;
+  margin: 30px 101px;
+  padding: 30px 87px 70px;
+  border-radius: 10px;
+  box-shadow: inset 0 1px 16px 0 rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0);
+  position: relative;
+}
+
+.form-group{
+    width: 300px;
+    height: 42px;
+    transform: translateY(-50%);
+}
+
+.form-group input,
+.form-group input:focus {
+   background-color: #1e1e1e;
+   box-shadow: none;
+   color: white;
+   height: 42px;
+}
+
+.form-group label{
+    background-color:#1e1e1e ;
+    color: white;
+}
+
+.dragdrop-rectangle {
+  width: 300px;
+  height: 518px;
+  margin: 12px 26px 26px 0;
+  padding: 140px 52px 40px;
+  opacity: 0.45;
+  border-radius: 10px;
+  border: solid 1px #bababa;
+}
+.dragdrop-rectangle p {
+    color: white;
+}
+.dragdrop-rectangl-descr{
+    margin-top: 130px;
+}
+
+.dragdrop-rectangl-descr p{
+    margin: 0px;
+}
+
+.submit{
+    margin: auto;
+    transform: translateY(40%);
+    cursor: pointer;
+}
+.form-inputs{
+display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo{
+    position: absolute;
+    top: 0;
+    transform: translate(-150%, -23%);
+}
+
+.require{
+    color: red !important;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: red;
+}
+
+.overlay,
+.overlay-error{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 1000px;
+  padding: 153.5px 470px 226px;
+  opacity: 0.85;
+  background-color: #000000;
+  display: none;
+}
+.overlay-content{
+  text-align: center;
+  margin: auto;
+  max-width: 500px;
+}
+
+.uspjena-prijava {
+  /* width: 390px;
+  height: 61px; */
+  margin: 30.5px 55px 20px;
+  font-family: Catamaran;
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--white);
+}
+.dok-eka-mail-potvr {
+  margin: 20px 0 26px;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #bababa;
+}
+.button-modal{
+  cursor: pointer;
+}
+
+.show{
+  display: block !important;
+}

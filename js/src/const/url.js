@@ -1,0 +1,1 @@
+export const API = "http://localhost/test/wp-json/enterwell/v1/stats";
